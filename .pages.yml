@@ -92,7 +92,8 @@ content:
         type: select
         options:
           values:
-            - Placeholder 1
-            - Placeholder 2
+            - systems
+            - ai
+            - productivity
       - { name: isDraft, label: Draft, type: boolean, default: true }
       - { name: body, label: Content, type: rich-text }
