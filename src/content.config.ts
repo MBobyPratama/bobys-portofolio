@@ -9,7 +9,12 @@ const projects = defineCollection({
         title: z.string().max(50),
         tools: z.preprocess(
             (val) => (Array.isArray(val) ? val : [val]),
-            z.array(z.enum(["TypeScript", "LIVE", "HTML", "JavaScript", "React Native", "Backend API", "Node.js", "Docker", "Tailwind"]))), // change categories here
+            z.array(z.enum([
+                "TypeScript", "LIVE", "HTML", "JavaScript", "React Native", 
+                "Backend API", "Node.js", "Docker", "Tailwind",
+                "PHP", "Laravel", "Midtrans", "Google OAuth", "Pest",
+                "Python", "Django", "SQLite", "Bootstrap", "jQuery"
+            ]))), // change categories here
         year: z.string().max(4),
         liveSite: z.url().optional(),
         github: z.url().optional(),
@@ -58,5 +63,14 @@ const skillsAndTools = defineCollection({
     })
 })
 
+const certifications = defineCollection({
+    loader: file("src/content/resume/certifications.yaml"),
+    schema: z.object({
+        title: z.string().max(100),
+        issuer: z.string().max(100),
+        date: z.string().max(15)
+    })
+})
 
-export const collections = { projects, blog, experience, education, skillsAndTools };
+
+export const collections = { projects, blog, experience, education, skillsAndTools, certifications };

@@ -1,0 +1,26 @@
+---
+// components
+import Section from "../../elements/Section.astro";
+import CertificationCard from "../../elements/CertificationCard.astro";
+
+
+// content collection
+import { getCollection } from "astro:content";
+const certifications = await getCollection("certifications");
+---
+
+<Section 
+    aria-label="Certifications"
+    title="Certifications"
+    titleHeading="My credentials"
+>
+    {
+            certifications.map((entry) => (
+                <CertificationCard 
+                    title={entry.data.title}
+                    date={entry.data.date}
+                    issuer={entry.data.issuer}
+                />
+            ))
+        }
+</Section>

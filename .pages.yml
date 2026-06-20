@@ -26,6 +26,16 @@ content:
             - Backend API
             - Node.js
             - Tailwind
+            - PHP
+            - Laravel
+            - Midtrans
+            - Google OAuth
+            - Pest
+            - Python
+            - Django
+            - SQLite
+            - Bootstrap
+            - jQuery
       - { name: year, label: Year, type: string}
       - { name: github, label: GitHub URL, type: string }
       - { name: liveSite, label: Live Site URL, type: string }
@@ -46,6 +56,16 @@ content:
       - { name: title, label: Title, type: string }
       - { name: timeline, label: Timeline, type: string }
       - { name: school, label: School, type: string }
+  - name: certifications
+    label: Certifications
+    type: file
+    path: src/content/resume/certifications.yaml
+    format: yaml
+    list: true
+    fields:
+      - { name: title, label: Title, type: string }
+      - { name: issuer, label: Issuer, type: string }
+      - { name: date, label: Date, type: string }
   - name: experience
     label: Experience
     type: file

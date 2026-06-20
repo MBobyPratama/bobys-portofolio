@@ -1,19 +1,34 @@
 - id: 1
-  title: Software Engineer — Polygon Labs
-  timeline: 2023 — Present
-  description: I work on full-stack systems supporting payments, bridging, and staking infrastructure, with a strong focus on reliability and performance. My work involves improving system confidence through robust testing practices, better observability, and clear internal documentation. I collaborate closely with cross-functional teams to ship features efficiently while maintaining high standards for scalability and developer experience.
+  title: Head of Information Technology — Indonesia Youth Foundation
+  timeline: "2025 — 2026"
+  description: Managed organizational digital infrastructure, overseeing publication of 40 articles and 7 digital updates. Integrated Google Analytics and migrated digital publishing platforms to AnyFlip for traffic tracking. Collaborated with content teams to optimize SEO standards and provided technical operations for major virtual events like ROYA 2026 and BISF 2026.
 
 - id: 2
-  title: Backend Engineer — Fintech Startup
-  timeline: 2021 — 2023
-  description: I designed and developed backend services for transaction processing and account systems, helping scale the platform as usage grew. A key part of my role was improving API reliability and reducing latency across critical services. I also introduced structured logging and monitoring practices, which significantly improved debugging and incident response, while working closely with product teams to deliver secure and user-focused features.
+  title: Back-End Developer — Moreplus
+  timeline: "2024 — 2025"
+  description: Engineered "14DOSS Logistic," a national stock management system for HM Sampoerna products using Laravel 11.x and PostgreSQL. Designed and deployed 20+ RESTful API endpoints following Clean Code principles. Achieved >80% test coverage using PEST and produced API documentation using Scribe/Dedoc.
 
 - id: 3
-  title: Full-Stack Developer — Independent / Contract
-  timeline: 2019 — 2021
-  description: I built and deployed custom web applications for a range of clients, primarily in e-commerce and SaaS. My work included developing tailored admin dashboards and internal tools that streamlined business operations. I handled projects end-to-end, from initial requirements through to deployment, with a focus on writing maintainable code, optimizing performance, and delivering responsive user experiences.
+  title: Backend Web Intern — Elevated Indonesia
+  timeline: "2025"
+  description: Assisted the CTO in overseeing backend web operations and development within an EdTech startup. Supported task execution, technical problem-solving, and progress reporting, ensuring consistent alignment with the engineering team's goals. Participated in regular cross-functional coordination.
 
 - id: 4
-  title: Junior Developer — Digital Agency
-  timeline: 2018 — 2019
-  description: I contributed to the development of client websites and web applications, focusing on implementing UI components and integrating backend APIs. During this time, I gained experience debugging issues, improving performance, and working within a collaborative team environment. This role helped build a strong foundation in practical software development and modern web technologies.
+  title: Web Development Mentor (Backend) — KSM Multimedia UPNVJ
+  timeline: "2026"
+  description: Delivered backend mentoring sessions on Node.js, Express.js, RESTful APIs, and database design. Collaborated with frontend mentors to teach full-stack development, and assisted mentees in developing and debugging backend services for their final projects.
+
+- id: 5
+  title: Backend Development Mentor — KSM Veterantech UPNVJ
+  timeline: "2026"
+  description: Mentored beginner students in backend development fundamentals using JavaScript, Node.js, Express.js, and SQL databases. Designed hands-on learning materials, spearheading the transition to Drizzle ORM. Provided technical guidance, code reviews, and API integration support.
+
+- id: 6
+  title: Backend Developer (PIM) — KSM Android UPNVJ
+  timeline: "2025"
+  description: Maintained and optimized backend systems serving 150+ active users, focusing on legacy code refactoring and performance tuning. Collaborated with the team to identify bottlenecks and implement scalable solutions for internal tools.
+
+- id: 7
+  title: Laboratory Assistant — UPNVJ Database Laboratory
+  timeline: "2025"
+  description: Mentored 30+ students in SQL fundamentals, database normalization, and query optimization.

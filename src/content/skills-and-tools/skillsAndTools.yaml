@@ -1,19 +1,38 @@
 - id: 1
-  title: Tools
+  title: Languages
   items:
-    - Go
-    - Python
+    - JavaScript
     - TypeScript
+    - PHP
+    - Python
     - SQL
-    - AWS
-    - Docker
-    - PostgreSQL
 - id: 2
-  title: Skills
+  title: Backend Frameworks
   items:
-    - Distributed Systems
-    - REST/gRPC APIs
-    - Scalability
-    - Unit/integration/E2E testing
-    - Ethereum, EVM, smart contracts
-    - Code reviews, documentation
+    - Express.js
+    - Laravel
+    - Django
+    - Flask
+- id: 3
+  title: Databases & ORM
+  items:
+    - PostgreSQL
+    - MySQL
+    - SQLite
+    - Drizzle ORM
+    - Eloquent
+- id: 4
+  title: Frontend
+  items:
+    - HTML
+    - CSS
+    - Bootstrap
+    - Tailwind CSS
+- id: 5
+  title: Tools & Concepts
+  items:
+    - Git/GitHub
+    - Postman
+    - Docker
+    - RESTful APIs
+    - Clean Code
