@@ -1,47 +1,45 @@
-# Decker - Astro & Tailwind Portfolio Template
+# Muhammad Boby Pratama — Developer Portfolio
 
-A portfolio Astro & Tailwind theme built for developers and engineers. Decker was built with a retro tech design that combines the performance of Astro with the flexibility of Tailwind CSS to deliver a strong online presence.
+Welcome to my personal developer portfolio website! This project is a highly-optimized, retro-designed showcase of my work, experience, education, and technical skills. Built on **Astro** and **Tailwind CSS**, it features a fully-responsive layout, modular component structures, and search engine optimization.
 
-- [**Live Demo**](https://decker-gmc.pages.dev) 
-- [**Documentation**](https://jessgaspar.dev/docs/getting-started) 
-- [**Changelog**](https://jessgaspar.dev/changelog/decker) 
-- [**Support**](https://jessgaspar.dev/legal/support) 
+---
 
-## Pages Included
+## 🚀 Tech Stack
 
-- Home
-- Projects
-- About
-- Blog
-- Blog post
-- Contact
-- 404
+* **Framework**: [Astro](https://astro.build/) (Static Site Generation)
+* **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+* **Language**: [TypeScript](https://www.typescript.org/) & JavaScript
+* **CMS Config**: [PagesCMS](https://pagescms.org/) (via `.pages.yml` file-based Git integration)
 
-## Features
+---
 
-Built with both developers and content editors in mind, Decker ships with a comprehensive set of features:
+## 🛠️ Project Structure & Data Collections
 
-- **Content Collections:** Structured data management for projects, blog posts, experience, education and skills — making updates quick, painless, and consistent across your entire site
-- **Reusable Components:** A library of modular components that keep your codebase clean, readable, and straightforward to customize for your portfolio
-- **Custom Tailwind Theme:** A bespoke design system built on Tailwind CSS with a clean, professional aesthetic that is easy to adapt to your portfolio's identity
-- **Pagination:** Keeps your projects and blog scalable and navigable as your portfolio grows over time
-- **Sitemap:** Auto-generated and search-engine ready, ensuring all your pages are indexed from day one without any manual configuration
-- **Optimized for SEO:** Built-in best practices including semantic markup, meta tags, and structured data to help your portfolio rank higher and reach more people
-- **Optimized for Accessibility:** Designed to be usable by everyone, with accessible patterns, and semantic HTML throughout
-- **Ongoing Updates:** Regular improvements and continued compatibility with the latest Astro releases so your theme stays modern and well-maintained
-- **Optional CMS with PagesCMS:** Manage your projects, blog posts, resume, and more site content through an intuitive visual interface — no code required
+The content on this website is managed dynamically using Astro's content layer and collections:
+* **Projects** (`src/content/projects/`): Showcases key development works like *Skillo Backend* and *SEA Salon*.
+* **Experience** (`src/content/resume/experience.yaml`): Detailed timeline of my professional roles.
+* **Education** (`src/content/resume/education.yaml`): University and education background details.
+* **Certifications** (`src/content/resume/certifications.yaml`): Active software development and database credentials.
+* **Skills** (`src/content/skills-and-tools/skillsAndTools.yaml`): Organized stack layout categorizing languages, backend frameworks, databases & ORMs, frontend, and developer tools.
 
-## 🧞 Astro Commands
+---
 
-All commands are run from the root of the project, from a terminal:
+## ⚙️ Commands
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+All commands should be executed from the root of the project:
 
+| Command | Action |
+| :--- | :--- |
+| `npm install` | Installs project dependencies |
+| `npm run dev` | Starts local development server at `localhost:4321` |
+| `npm run build` | Builds your static production site to `./dist/` |
+| `npm run preview` | Previews the build output locally |
 
+---
+
+## ✍️ Editing Content with PagesCMS
+
+This repository is pre-configured with [PagesCMS](https://pagescms.org/). To manage data:
+1. Log in to PagesCMS using your GitHub account.
+2. Link the repository `bobys-portofolio`.
+3. Use the CMS dashboard sidebar to visually edit or add projects, experiences, certifications, education, and skills. Saves will automatically generate commits and push them to your repository, triggering your Vercel/Netlify host to rebuild.
